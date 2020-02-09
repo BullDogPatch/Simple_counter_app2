@@ -15,7 +15,7 @@ function Button() {
 
   if (count < 0) {
     return (
-      <div>
+      <div className="dangerContainer">
         <h1 className="dangerZone">Danger Zone</h1>
         <button className="goo" onClick={increase}>
           Back to safety

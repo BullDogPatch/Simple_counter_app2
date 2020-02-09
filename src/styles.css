@@ -13,3 +13,9 @@
 .dangerZone {
   color: red;
 }
+
+.dangerContainer {
+  background: slategray;
+  width: 50%;
+  margin: auto;
+}
