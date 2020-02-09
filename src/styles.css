@@ -1,0 +1,15 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: lightblue;
+  height: 500px;
+  border: 2px solid darkblue;
+}
+
+.goo {
+  color: red;
+}
+
+.dangerZone {
+  color: red;
+}
