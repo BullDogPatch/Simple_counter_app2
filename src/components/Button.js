@@ -23,7 +23,14 @@ function Button() {
       </div>
     );
   } else if (count === 50) {
-    return <Test />;
+    return (
+      <div>
+        <Test />
+        <button className="goo" onClick={decrease}>
+          Back to count
+        </button>
+      </div>
+    );
   }
 
   return (
@@ -34,7 +41,9 @@ function Button() {
       <button className="goo" onClick={decrease}>
         Decrement
       </button>
-      <p>You have clicked {count} times</p>
+      <p>
+        You have clicked <span>{count}</span> times
+      </p>
     </div>
   );
 }
